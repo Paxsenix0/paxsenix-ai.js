@@ -1,7 +1,7 @@
 {
-  "name": "paxsenix-ai",
+  "name": "paxsenix-ai.js",
   "version": "0.1.0",
-  "description": "Node.js client library for the Paxsenix AI API",
+  "description": "Node.js client library for interact with many AI models for extremely free, using PaxSenix AI API",
   "type": "module",
   "main": "./cjs/index.js",
   "exports": {
@@ -44,10 +44,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paxsenix0/paxsenix-ai.git"
+    "url": "git+https://github.com/Paxsenix0/paxsenix-ai.js.git"
   },
   "bugs": {
-    "url": "https://github.com/Paxsenix0/paxsenix-ai/issues"
+    "url": "https://github.com/Paxsenix0/paxsenix-ai.js/issues"
   },
-  "homepage": "https://github.com/Paxsenix0/paxsenix-ai#readme"
+  "homepage": "https://github.com/Paxsenix0/paxsenix-ai.js#readme"
 }
