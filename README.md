@@ -40,10 +40,13 @@ npm install paxsenix-ai.js
 ### Initialize the Client
 
 ```javascript
-const PaxSenixAI = require('paxsenix-ai.js');
+import PaxSenixAI from 'paxsenix-ai.js';
+
+// Initialize without API key
+const paxsenix = new PaxSenixAI();
 
 // Initialize with your API key
-const paxsenix = new PaxSenixAI('your-api-key');
+const paxsenix = new PaxSenixAI('YOUR-API-KEY');
 ```
 
 ### Chat Completions

@@ -1,11 +1,11 @@
 {
   "name": "paxsenix-ai.js",
-  "version": "0.1.0",
-  "description": "Node.js client library for interact with many AI models for extremely free, using PaxSenix AI API",
+  "version": "0.1.1",
+  "description": "A robust and intuitive Node.js client library for the Paxsenix-AI API. Seamlessly integrate AI-powered chat completions, embeddings, and more into your Node.js applications for free.",
   "type": "module",
-  "main": "./cjs/index.js",
+  "main": "./cjs/index.cjs",
   "exports": {
-    "require": "./cjs/index.js",
+    "require": "./cjs/index.cjs",
     "import": "./mjs/index.js"
   },
   "keywords": [
@@ -15,16 +15,23 @@
     "openai",
     "llama",
     "claude",
-    "chat",
+    "chat-ai",
     "chatgpt",
     "gemini",
     "qwen",
     "mistral",
+    "llama",
     "gpt",
     "api",
     "client",
     "nodejs",
-    "javascript"
+    "javascript",
+    "gpt-3",
+    "gpt-4",
+    "gpt4free",
+    "chatbot",
+    "nlp",
+    "machine-learning"
   ],
   "author": "Paxsenix0",
   "license": "MIT",
@@ -34,8 +41,8 @@
   "files": [
     "mjs/index.js",
     "mjs/resources/**/*.js",
-    "cjs/index.js",
-    "cjs/resources/**/*.js",
+    "cjs/index.cjs",
+    "cjs/resources/**/*.cjs",
     "README.md",
     "LICENSE"
   ],

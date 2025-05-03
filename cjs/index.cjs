@@ -1,5 +1,5 @@
 const axios = require('axios');
-const Chat = require('./resources/chat');
+const Chat = require('./resources/chat.cjs');
 
 class PaxSenixAI {
   constructor(apiKey, options = {}) {
