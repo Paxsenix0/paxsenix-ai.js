@@ -3,9 +3,9 @@
 A robust and intuitive Node.js client library for the [Paxsenix-AI API](https://api.paxsenix.biz.id/docs). Seamlessly integrate AI-powered chat completions, embeddings, and more into your Node.js applications.
 
 ![Static Badge](https://img.shields.io/badge/PaxSenix-AI.js-blue)
-![GitHub top language](https://img.shields.io/github/languages/top/paxsenix/paxsenix-ai.js)
-![GitHub Repo stars](https://img.shields.io/github/stars/paxsenix/paxsenix-ai.js)
-![GitHub issues](https://img.shields.io/github/issues/paxsenix/paxsenix-ai.js)
+![GitHub top language](https://img.shields.io/github/languages/top/Paxsenix0/paxsenix-ai.js)
+![GitHub Repo stars](https://img.shields.io/github/stars/Paxsenix0/paxsenix-ai.js)
+![GitHub issues](https://img.shields.io/github/issues/Paxsenix0/paxsenix-ai.js)
 ![NPM Downloads](https://img.shields.io/npm/dm/paxsenix-ai.js)
 
 ## 📋 Table of Contents
@@ -40,10 +40,10 @@ npm install paxsenix-ai.js
 ### Initialize the Client
 
 ```javascript
-const PaxsenixAI = require('paxsenix-ai.js');
+const PaxSenixAI = require('paxsenix-ai.js');
 
 // Initialize with your API key
-const paxsenix = new PaxsenixAI('your-api-key');
+const paxsenix = new PaxSenixAI('your-api-key');
 ```
 
 ### Chat Completions
