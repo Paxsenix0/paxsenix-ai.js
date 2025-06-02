@@ -1,0 +1,65 @@
+{
+  "name": "@paxsenix/ai",
+  "version": "0.1.2",
+  "description": "A lightweight and intuitive Node.js client for the Paxsenix AI API.",
+  "type": "module",
+  "main": "./cjs/index.cjs",
+  "module": "./esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./cjs/index.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "free ai",
+    "ai",
+    "paxsenix",
+    "chatbot",
+    "openai",
+    "llama",
+    "claude",
+    "chat-ai",
+    "chatgpt",
+    "gemini",
+    "qwen",
+    "mistral",
+    "llama",
+    "gpt",
+    "api",
+    "client",
+    "nodejs",
+    "javascript",
+    "gpt-3",
+    "gpt-4",
+    "gpt4free",
+    "chatbot",
+    "nlp",
+    "machine-learning"
+  ],
+  "author": "Paxsenix0",
+  "license": "MIT",
+  "dependencies": {},
+  "files": [
+    "esm/index.js",
+    "esm/resources/**/*.js",
+    "cjs/index.cjs",
+    "cjs/resources/**/*.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paxsenix0/paxsenix-ai.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Paxsenix0/paxsenix-ai.js/issues"
+  },
+  "homepage": "https://github.com/Paxsenix0/paxsenix-ai.js#readme"
+}
