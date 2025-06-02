@@ -3,8 +3,8 @@
 A lightweight and intuitive Node.js client for the [Paxsenix AI API](https://api.paxsenix.biz.id/docs).  
 Easily integrate AI-powered chat completions, streaming responses, model listing, and more—right into your app.
 
-**Free to use with a rate limit of 20 requests per minute.**  
-Need more? API key support with higher limits is coming soon.
+**Free to use with a rate limit of 3 requests per minute.**  
+Need more? API key support with higher limits! :)
 
 ![Static Badge](https://img.shields.io/badge/@PaxSenix-AI-blue)
 ![GitHub top language](https://img.shields.io/github/languages/top/Paxsenix0/paxsenix-ai.js)
@@ -63,9 +63,9 @@ const paxsenix = new PaxSenixAI('YOUR_API_KEY');
 
 // Advanced usage
 const paxsenix = new PaxSenixAI('YOUR_API_KEY', {
-  timeout: 30000,          // Request timeout in ms
-  retries: 3,               // Number of retry attempts
-  retryDelay: 1000       // Delay between retries in ms
+  timeout: 30000, // Request timeout in ms
+  retries: 3, // Number of retry attempts
+  retryDelay: 1000 // Delay between retries in ms
 });
 ```
 
@@ -176,11 +176,11 @@ try {
 
 ## 📜 License
 
-MIT License. See [LICENSE](LICENSE) for full details.
+MIT License. See [LICENSE](LICENSE) for full details. :)
 
 ---
 
 ## 💬 Feedback & Contributions
 
 Pull requests and issues are welcome.  
-Feel free to fork, submit PRs, or just star the repo if it's helpful.
+Feel free to fork, submit PRs, or just star the repo if it's helpful :P
