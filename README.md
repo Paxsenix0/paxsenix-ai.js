@@ -1,9 +1,9 @@
 # @paxsenix/ai
 
-A lightweight and intuitive Node.js client for the [Paxsenix AI API](https://api.paxsenix.biz.id/docs).  
+A lightweight and intuitive Node.js client for the [Paxsenix AI API](https://api.paxsenix.dpdns.org/docs).  
 Easily integrate AI-powered chat completions, streaming responses, model listing, and more—right into your app.
 
-**Free to use with a rate limit of 3 requests per minute.**  
+**Free to use with a rate limit of 5 requests per minute.**  
 Need more? API key support with higher limits! :)
 
 ![Static Badge](https://img.shields.io/badge/@PaxSenix-AI-blue)
@@ -161,7 +161,7 @@ try {
 
 ## ⏱️ Rate Limits
 
-- Free access allows up to **3 requests per minute**.
+- Free access allows up to **5 requests per minute**.
 - Higher rate limits and API key support are planned.
 - API keys will offer better stability and priority access.
 
