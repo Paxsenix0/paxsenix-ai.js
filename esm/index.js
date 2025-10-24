@@ -4,7 +4,7 @@ import Chat from './resources/chat.js';
 class PaxSenixAI {
   constructor(apiKey, options = {}) {
     this.apiKey = apiKey;
-    this.baseURL = 'https://api.paxsenix.dpdns.org';
+    this.baseURL = 'https://api.paxsenix.org';
     this.timeout = options.timeout || 30000;
     this.retries = options.retries || 0;
     this.retryDelay = options.retryDelay || 1000;

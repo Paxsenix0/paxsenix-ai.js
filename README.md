@@ -1,6 +1,6 @@
 # @paxsenix/ai
 
-A lightweight and intuitive Node.js client for the [Paxsenix AI API](https://api.paxsenix.dpdns.org/docs).  
+A lightweight and intuitive Node.js client for the [Paxsenix AI API](https://api.paxsenix.org/docs).  
 Easily integrate AI-powered chat completions, streaming responses, model listing, and more—right into your app.
 
 **Free to use with a rate limit of 5 requests per minute.**  
